@@ -1,5 +1,6 @@
 .infoBox {
   flex: 1;
+  cursor: pointer;
 }
 
 .infoBox:not(:last-child) {
@@ -30,4 +31,11 @@
   font-weight: 700 !important;
   font-size: 0.8rem !important;
   margin-top: 15px !important;
+}
+
+@media screen and  (max-width: 550px) {
+  .infoBox:not(:first-child) {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
 }

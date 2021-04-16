@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-.app__dropdown {
+.app__select {
   background-color: white;
 }
 
@@ -52,5 +52,30 @@ body {
 @media (max-width: 990px) {
   .app {
     flex-direction: column;
+  }
+  .app__right {
+    margin-top: 10px;
+  }
+}
+
+@media screen and  (max-width: 550px) {
+  .app__header {
+    flex-direction: column;
+  }
+  .app__stats {
+    flex-direction: column;
+  }
+  .app__dropdown {
+    margin-top: 10px !important;
+    width: 100%;
+  }
+  .app__select {
+    margin-right: 10px;
+  }
+}
+
+@media screen and  (max-width: 311px) {
+  .app__title {
+    font-size: 1.5rem !important;
   }
 }

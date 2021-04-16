@@ -75,9 +75,10 @@ const App = () => {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-          <h1>COVID-19 Tracker</h1>
+          <h1 className="app__title">COVID-19 Tracker</h1>
           <FormControl className="app__dropdown">
             <Select
+              className="app__select"
               variant="outlined"
               value={country}
               onChange={onCountryChange}
