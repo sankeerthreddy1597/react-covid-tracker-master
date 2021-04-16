@@ -1,6 +1,9 @@
 # React COVID Tracker
 
+live link : https://covid-tracker-b03b7.web.app
+
 Covid Tracker single page web application that shows the COVID data in terms of new cases, recvories and deaths in a diay and total worldwide as well as for an individual country. The data used is provided by anoline API service called disease.sh . 
+Credit to CleverProgrammers for an amazing tutorital on youtube
 
 ###Updates to the project
 * Make the chart on the right responsive to indiviudal countries.
